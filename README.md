@@ -12,6 +12,7 @@
 - OSX Mojave
 
 ### Next Plan
+- 2D FFTShift
 - iFFT 2D
 - Mouse masking for 2D Notch Filtering
 
