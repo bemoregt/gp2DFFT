@@ -3,6 +3,8 @@
 
 ![fft2 example]( https://github.com/bemoregt/ofx2DFFT/blob/master/fft2.jpg "example")
 
+![fft2 example2]( https://github.com/bemoregt/ofx2DFFT/blob/master/test.png "example2")
+
 ### Dependency
 - OpenFrameworks 0.10.1
 - ofxCv
@@ -12,7 +14,7 @@
 - OSX Mojave
 
 ### Next Plan
-- 2D FFTShift
+- 2D FFTShift. Finished
 - iFFT 2D
 - Mouse masking for 2D Notch Filtering
 
