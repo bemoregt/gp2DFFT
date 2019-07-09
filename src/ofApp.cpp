@@ -29,6 +29,8 @@ void ofApp::update(){
     cv::Mat complexImg;
     cv::merge(planes, 2, complexImg);
     cv::dft(complexImg, complexImg);
+    // added 190709
+    fftshift(complexImg, complexImg);
     
     cv::split(complexImg, planes);
     
