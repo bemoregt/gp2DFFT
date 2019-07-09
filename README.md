@@ -1,7 +1,7 @@
 # ofx2DFFT
 2d fft of image using Openframeworks &amp; ofxCv
 
-![detection example]( https://github.com/bemoregt/ofx2DFFT/blob/master/test.png "saliency map")
+![fft2 example]( https://github.com/bemoregt/ofx2DFFT/blob/master/fft2.jpg "example")
 
 ### Dependency
 - OpenFrameworks 0.10.1
