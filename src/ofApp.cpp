@@ -2,6 +2,9 @@
 
 
 using namespace ofxCv;
+
+void fftshift(Mat & in, Mat & out);
+
 //--------------------------------------------------------------
 void ofApp::setup(){
 
@@ -101,4 +104,28 @@ void ofApp::gotMessage(ofMessage msg){
 //--------------------------------------------------------------
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
+}
+//
+//--------------------------------------------------
+void fftshift(Mat & in, Mat & out) {
+    out = in.clone();
+    int mx1, my1, mx2, my2;
+    mx1 = out.cols / 2;
+    my1 = out.rows / 2;
+    mx2 = int(ceil(out.cols / 2.0));
+    my2 = int(ceil(out.rows / 2.0));
+    Mat q0(out, cv::Rect(0, 0, mx2, my2));
+    Mat q1(out, cv::Rect(mx2, 0, mx1, my2));
+    Mat q2(out, cv::Rect(0, my2, mx2, my1));
+    Mat q3(out, cv::Rect(mx2, my2, mx1, my1));
+    Mat tmp;
+    q0.copyTo(tmp);
+    q3.copyTo(q0);
+    tmp.copyTo(q3);
+    q2.copyTo(tmp);
+    q1.copyTo(q2);
+    tmp.copyTo(q1);
+    vconcat(q1, q3, out);
+    vconcat(q0, q2, tmp);
+    hconcat(tmp, out, out);
 }
