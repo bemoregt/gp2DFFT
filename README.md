@@ -14,7 +14,7 @@
 - OSX Mojave
 
 ### Next Plan
-- 2D FFTShift. Finished
-- iFFT 2D
+- 2D FFTShift: Finished
+- Video realtime FFT
 - Mouse masking for 2D Notch Filtering
 
