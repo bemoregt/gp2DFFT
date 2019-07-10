@@ -15,6 +15,7 @@
 
 ### Next Plan
 - 2D FFTShift: Finished
+- Pseudo Coloring for image spectrum.
 - Video realtime FFT
 - Mouse masking for 2D Notch Filtering
 
