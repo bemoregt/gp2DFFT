@@ -23,4 +23,4 @@
 - Pseudo Coloring for image spectrum.
 - Video realtime FFT
 - Mouse masking for 2D Notch Filtering
-
+- Elapsed Time Display per resolution.
