@@ -29,4 +29,5 @@
 - Pseudo Coloring for image spectrum.
 - Video realtime FFT
 - Mouse masking for 2D Notch Filtering
-- Elapsed Time Display per resolution.
+- Elapsed Time Display per resolution
+- Radon Transform of Spectrum.
