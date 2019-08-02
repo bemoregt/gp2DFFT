@@ -1,4 +1,4 @@
-# ofx2DFFT
+# kdg2DFFT
 2d fft of image using Openframeworks &amp; ofxCv
 
 ![fft2 example]( https://github.com/bemoregt/ofx2DFFT/blob/master/fft2.jpg "example")
