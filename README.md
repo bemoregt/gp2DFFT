@@ -12,7 +12,7 @@
 ![fft6 example6]( https://github.com/bemoregt/ofx2DFFT/blob/master/test6.png "example6")
 
 ### Algorithm
-- Like the Fourier space, Phase space, and Hough space, Thess second spaces are very important to get more detailed features by post processing. But most vision libraries(OpenCV, etc) does not give 2nd spaces.
+- Like the Fourier space, Phase space, and Hough space, These second spaces are very important to get more detailed features by post processing. But most vision libraries(OpenCV, etc) does not give 2nd spaces.
 - This Second space is also images. so image processing for this 2nd space is very important. but most people just satisfied to get automatic (some incomplete and many) output from libraries.
 - In addition, This second spaces can be used to datasets for Deep learning to get invariantness, data compression, domain converting, etc.
 
